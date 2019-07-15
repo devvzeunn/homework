@@ -1,0 +1,20 @@
+﻿<Shop-Scrapping>
+
+	1. nining9 > 구조적 예외사항 처리
+		* 예시 - 상품코드 기준(테스트 일 기준, 대상 건수 총 156건)
+		.list_cell .ico_thumb span:nth-child(1) : data-product-code(149건)
+		.list_cell .item_text > a:nth-child(1) : data-index(7건)
+
+	2. 서버 오류에 대한 사용자 메세지 처리
+		* 예시 - insert 쿼리 수행 중
+		"상품 등록 중 오류가 발생하였습니다."
+
+<Inflect-String>
+
+	1. 대문자 문자열 그룹인 경우, 그룹화  
+		* 예시
+		KakaoAI : kakao_A_I(현재) => kakao_ai(개선 후)
+
+	2. 대문자 문자열 + 소문자 문자열 구성인 경우, 그룹화
+		* 예시
+		OPENkey : o_p_e_nkey(현재) => open_key(개선 후)

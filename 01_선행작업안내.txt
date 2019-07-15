@@ -1,0 +1,21 @@
+﻿< 환경 구축 > 
+	1. MySQL 설치
+		https://dev.mysql.com/downloads/installer/
+
+	2. Node 설치
+		https://nodejs.org/en/
+	
+	3. 로컬DB 환경셋팅
+		* 설정파일 참조 > /ZEUNN_APP/config/database.js
+		  host     : 'localhost'
+		  user     : 'root'
+		  password : '1234'
+		  port     : '3306'
+		  database : 'homework_db'
+
+	4. 로컬 서버 기동
+		* 콘솔 > 노드 프로젝트 경로 이동 > app.js 실행
+			$ node app.js
+
+	5. 과제 홈 화면 이동
+		http://localhost:3000/public/homework.html
